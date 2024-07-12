@@ -42,7 +42,7 @@ securityContext: {}
 service:
   type: LoadBalancer
   port: 80
-  taregetPort: 444
+  targetPort: 444
 
 ingress:
   enabled: false
